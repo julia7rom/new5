@@ -6,56 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2?family= Roboto & display семья = Raleway: вес @ 700 &семья = Робото: вес @ 400; 500; 700; 900 & swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <a href="">WebStudio</a>
-        <nav>
-            <ul>
+    <header class="header">
+        <a class="logo" href="./index.html">Web<span class="header-studio">Studio</span></a>
+        <nav class="navigation">
+            <ul class="nav-list">
                 <li>
-                    <a href="">Студия</a>
+                    <a class="nav-list-a" href="">Студия</a>
                 </li>
                 <li>
-                    <a href="">Портфолио</a>
+                    <a class="nav-list-a" href="">Портфолио</a>
                 </li>
                 <li>
-                    <a href="">Контакты</a>
+                    <a class="nav-list-a" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <a href="info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul>
+            <li>
+                    <a class="contact-a" href="info@devstudio.com">info@devstudio.com</a>
+             </li>
+             <li>
+                    <a class="contact-a" href="tel:+380961111111">+38 096 111 11 11</a>
+             </li>
+        </ul>
     </header>
     <main>
         <!-- герой -->
-        <section >
-                <h1>Эффективные решения <br> для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+        <section class="solution">
+                <h1 class="h-one">Эффективные решения для вашего бизнеса</h1>
+                <button class="modal-btn" type="button">Заказать услугу</button>
         </section>
         <!-- секция -->
         <section>
                 <ul>
                     <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также <br> начало повседневной работы по <br> формированию позиции.</p>
+                        <h3 class="name-h-three">Внимание к деталям</h3>
+                        <p class="p">Идейные соображения, а также <br> начало повседневной работы по <br> формированию позиции.</p>
                     </li>
                     <li>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности <br> же рамки и место обучения кадров <br> влечет за собой.</p>
+                        <h3 class="name-h-three">Пунктуальность</h3>
+                        <p class="p">Задача организации, в особенности <br> же рамки и место обучения кадров <br> влечет за собой.</p>
                     </li>
                     <li>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с <br> широким активом в значительной <br> степени обуславливает.</p>
+                        <h3 class="name-h-three">Планирование</h3>
+                        <p class="p">Равным образом консультация с <br> широким активом в значительной <br> степени обуславливает.</p>
                     </li>
                     <li>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько <br> очевидна, что реализация плановых <br> заданий.</p>
+                        <h3 class="name-h-three">Современные технологии</h3>
+                        <p class="p">Значимость этих проблем настолько <br> очевидна, что реализация плановых <br> заданий.</p>
                     </li>
                 </ul>
         </section>
         <section>
-            <h2>Чем занимаемся</h2>
+            <h2 class="name-h-too">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./img/img-1.jpg" alt="" width="370" height="294"></li>
                 <li><img src="./img/img-2.jpg" alt="" width="370" height="294"></li>
@@ -63,23 +75,23 @@
             </ul>
         </section>
         <section>
-            <h2>Наша команда</h2>
+            <h2 class="name-h-too">Наша команда</h2>
             <ul>
                 <li><img src="./img/img-4.jpg" alt="Игорь Демьяненко" width="260" height="270">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h4 class="name-h-four">Игорь Демьяненко</h3>
+                    <p class="p">Product Designer</p>
                 </li>
                 <li><img src="./img/img-5.jpg" alt="Ольга Репина" width="260" height="270">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <h4 class="name-h-four">Ольга Репина</h3>
+                    <p class="p">Frontend Developer</p>
                 </li>
                 <li><img src="./img/img-6.jpg" alt="Николай Тарасов" width="260" height="270">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h4 class="name-h-four">Николай Тарасов</h3>
+                    <p class="p">Marketing</p>
                 </li>
                 <li><img src="./img/img-7.jpg" alt="Михаил Ермаков" width="260" height="270">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <h4 class="name-h-four">Михаил Ермаков</h3>
+                    <p class="p">UI Designer</p>
                 </li>
             </ul>
         </section>
